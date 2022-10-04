@@ -6,11 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 import Clock from './2차시/Clock';
 import CommentList from './2차시/CommentList';
+import NotificationList from './3차시/NotificationList'; 
+import Accommodate from './3차시/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <Accommodate />
   </React.StrictMode>
 );
 
